@@ -1,0 +1,4 @@
+interface:
+  display_name: "Your ByteDance Review"
+  short_description: "Run a candid cross-functional Byte Review."
+  default_prompt: "Use $byte-review to review this product like a cross-functional team."

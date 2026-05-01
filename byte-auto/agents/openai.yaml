@@ -1,0 +1,4 @@
+interface:
+  display_name: "Your ByteDance Auto"
+  short_description: "Run from idea to delivery automatically."
+  default_prompt: "Use $byte-auto to take this product idea to a deliverable product."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Your ByteDance Do"
+  short_description: "Route work through the ByteDance-inspired Byte OS."
+  default_prompt: "Use $byte-do to route my product request through the Your ByteDance workflow."

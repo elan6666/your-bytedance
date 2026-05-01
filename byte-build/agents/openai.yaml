@@ -1,0 +1,4 @@
+interface:
+  display_name: "Your ByteDance Build"
+  short_description: "Execute plans by dependency-ready waves."
+  default_prompt: "Use $byte-build to execute the next build wave."

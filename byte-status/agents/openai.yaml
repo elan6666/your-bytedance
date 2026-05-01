@@ -1,0 +1,4 @@
+interface:
+  display_name: "Your ByteDance Status"
+  short_description: "Show product state, OKRs, and next action."
+  default_prompt: "Use $byte-status to summarize the current Your ByteDance byte state."

@@ -1,0 +1,56 @@
+# Byte OS runtime state generated while using the skills
+.byte-os/
+.product-os/
+.planning/
+
+# Local Codex / agent runtime artifacts
+.codex/
+.agents/
+*.handoff.md
+*-HANDOFF.md
+SESSION*.md
+DEBUG*.md
+REVIEW*.md
+VERIFICATION*.md
+UAT*.md
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.pid
+.DS_Store
+Thumbs.db
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / frontend build artifacts
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+.vite/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor and OS metadata
+.idea/
+.vscode/
+*.code-workspace
