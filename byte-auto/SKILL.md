@@ -50,6 +50,7 @@ If the project already has `.byte-os/`, resume from the earliest incomplete stag
 - Do not rely on simulated real users.
 - Use `byte-users` only if real feedback evidence is provided.
 - Use current web search for modern competitor, pricing, or trend claims.
+- Apply `byte-code-rules` whenever auto mode plans, writes, reviews, or iterates on code.
 - Use actual subagents only when the user explicitly authorizes multi-agent or auto Byte OS execution and the platform allows it.
 - Stop only for blockers that cannot be safely inferred.
 - Be candid in logs: record weak assumptions, failed checks, and tradeoffs instead of hiding them.

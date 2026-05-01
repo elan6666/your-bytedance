@@ -18,6 +18,7 @@ Run the project like a ByteDance-inspired product squad:
 - Aim high with ROI: compare alternatives, take calculated risks, and avoid low-impact busywork.
 - Experimentation culture: convert uncertain choices into hypotheses, metrics, tests, or iteration loops.
 - Cross-functional execution: product, research, UX, engineering, QA, and growth work in parallel when dependencies allow.
+- Engineering discipline: apply `byte-code-rules` when planning, writing, reviewing, refactoring, or iterating on code.
 
 ## Byte OS State
 
@@ -57,6 +58,7 @@ Apply the first strong match:
 | "shape", "MVP", "positioning", "scope", "flows", "design product" | `byte-shape` |
 | "plan", "break down", "roadmap to tasks", "plans" | `byte-plan` |
 | "build", "implement", "execute", "develop" | `byte-build` |
+| "code rules", "coding guidelines", "engineering rules", "Karpathy" | `byte-code-rules` |
 | "review", "audit", "check quality", "project meeting" | `byte-review` |
 | "real users", "feedback", "user testing", "interview notes", "analytics" | `byte-users` |
 | "iterate", "next version", "improve", "optimize" | `byte-iterate` |
@@ -75,6 +77,7 @@ After routing, execute the selected workflow. If the selected skill body is avai
 - `byte-shape`: write product, UX, technical, and roadmap specs.
 - `byte-plan`: create dependency-aware plan files under `.byte-os/plans/`.
 - `byte-build`: execute the next dependency-ready plan wave, or the requested `--plan`, `--wave`, or `--all`.
+- `byte-code-rules`: apply simple, surgical, verifiable engineering behavior rules.
 - `byte-review`: run a cross-functional review and write `.byte-os/reviews/review-N.md`.
 - `byte-users`: analyze only real feedback evidence; never simulate real users.
 - `byte-iterate`: run structured improvement loops and write `.byte-os/iterations/iteration-N.md`.

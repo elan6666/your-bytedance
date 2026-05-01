@@ -27,6 +27,7 @@ If these are missing, run or recommend `byte-shape`.
 - Create plans that can be executed independently when dependencies allow.
 - Prefer wave-based parallelism over strict 1-to-N order.
 - Keep write scopes clear to reduce conflicts.
+- For engineering work, apply `byte-code-rules`: simple scope, surgical changes, explicit assumptions, and verifiable success criteria.
 - Include acceptance criteria in every plan.
 - Include verification steps in every plan.
 - Connect every plan to at least one Objective or Key Result.
@@ -58,6 +59,8 @@ depends_on: []
 # Tasks
 
 # Dependencies
+
+# Code Change Guardrails
 
 # Acceptance Criteria
 

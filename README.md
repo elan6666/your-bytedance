@@ -25,6 +25,7 @@ Your own ByteDance for building products with Codex.
 - 定义产品定位、MVP、用户流程、UX 和技术方向。
 - 把产品方案拆成带依赖关系的可执行计划。
 - 按 execution wave 构建，而不是机械执行 plan 1、plan 2、plan 3。
+- 用 Karpathy-inspired 工程守则约束代码：先想清楚、保持简单、只做必要改动、验证成功标准。
 - 像跨职能项目组一样做产品、设计、技术、QA、增长评审。
 - 在交付前自动迭代至少 3 轮。
 - 产品完成后，只基于真实用户证据分析反馈。
@@ -42,6 +43,7 @@ Your ByteDance 使用这些工作原则：
 - **Transparent OKRs：** 用可见的目标和关键结果连接产品、计划和执行。
 - **Experimentation culture：** 把不确定决策转成假设、指标、实验或迭代。
 - **Cross-functional squads：** 产品、设计、工程、QA、研究、增长能并行就并行。
+- **Engineering discipline：** 写代码时默认遵守 `byte-code-rules`，避免过度设计、无关重构和未验证交付。
 
 ### 30 秒快速开始
 
@@ -95,6 +97,7 @@ byte-auto
 | `byte-shape` | 定义定位、MVP、范围、UX、技术方向和路线图。 |
 | `byte-plan` | 把产品方案拆成带依赖关系的可执行计划。 |
 | `byte-build` | 按 dependency-ready waves 执行计划。 |
+| `byte-code-rules` | 写代码、评审、重构、迭代时使用的工程行为守则。 |
 | `byte-review` | 做跨职能产品、UX、技术、QA、增长评审。 |
 | `byte-iterate` | 基于评审、研究、测试或真实反馈进行结构化迭代。 |
 | `byte-users` | 只分析产品完成后的真实用户证据，不模拟用户。 |
@@ -173,6 +176,7 @@ $byte-users 这里是我们原型测试的用户访谈记录和录屏观察
 - `byte-users` 只处理真实的产品完成后用户证据。
 - 产品完成前可以有用户假设，但不能假装那是真实用户反馈。
 - `byte-build` 默认执行下一批依赖已满足的 wave，不是简单执行第一个 plan。
+- `byte-code-rules` 会约束写代码、评审和迭代：简单、克制、可追溯、可验证。
 - `byte-auto` 和逐步模式共享同一套阶段，只是自动连续执行。
 - 现代竞品、价格、市场趋势或 “latest” 信息必须联网搜索并引用来源。
 - 每个阶段都应该更新或遵守当前 Objective、Key Results、决策记录和证据等级。
@@ -185,6 +189,7 @@ $byte-users 这里是我们原型测试的用户访谈记录和录屏观察
 - [Lark OKR](https://larksuite.my/okr)
 - [TechNode: Feishu People / OKR](https://technode.com/2022/05/26/bytedance-launches-hr-management-tool-feishu-people/)
 - [BytePlus A/B Testing Guide](https://www.byteplus.com/downloads/How-to-Avoid-Common-Mistakes-When-AB-Testing.pdf)
+- [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)
 
 ---
 
@@ -203,6 +208,7 @@ All skill names use the `byte-*` prefix.
 - Shape product positioning, MVP scope, user flows, UX, and technical direction.
 - Split product work into dependency-aware executable plans.
 - Build by execution waves instead of blindly running plan 1, plan 2, plan 3.
+- Apply Karpathy-inspired engineering rules: think first, keep code simple, make surgical edits, and verify success criteria.
 - Review the product like a cross-functional squad.
 - Run at least 3 automatic iteration loops before delivery.
 - Analyze only real user evidence after the product exists.
@@ -220,6 +226,7 @@ Your ByteDance applies these principles:
 - **Transparent OKRs:** connect product goals, plans, and execution to visible objectives and key results.
 - **Experimentation culture:** turn uncertain choices into hypotheses, metrics, tests, or iterations.
 - **Cross-functional squads:** product, design, engineering, QA, research, and growth work in parallel when dependencies allow.
+- **Engineering discipline:** use `byte-code-rules` for coding work to avoid overengineering, unrelated refactors, and unverified delivery.
 
 ### 30-Second Quick Start
 
@@ -273,6 +280,7 @@ byte-auto
 | `byte-shape` | Define positioning, MVP, scope, UX, technical direction, and roadmap. |
 | `byte-plan` | Convert specs into dependency-aware executable plans. |
 | `byte-build` | Execute plans by dependency-ready waves. |
+| `byte-code-rules` | Engineering behavior rules for coding, review, refactoring, and iteration. |
 | `byte-review` | Run a cross-functional product, UX, tech, QA, and growth review. |
 | `byte-iterate` | Run structured iteration loops based on review, research, tests, or real feedback. |
 | `byte-users` | Analyze real post-build user evidence only. It does not simulate users. |
@@ -351,6 +359,7 @@ $byte-users Here are user interview notes and session recordings from our protot
 - `byte-users` only handles real post-build user evidence.
 - User assumptions before build are allowed, but they must not be presented as real user feedback.
 - `byte-build` executes the next dependency-ready wave by default, not simply the first plan.
+- `byte-code-rules` constrains coding, review, and iteration to be simple, scoped, traceable, and verifiable.
 - `byte-auto` uses the same staged workflow as manual mode; it just runs the stages continuously.
 - Modern competitor, pricing, market, or "latest" claims require current web research and citations.
 - Every stage should update or respect the current Objective, Key Results, decision log, and evidence level.
@@ -363,3 +372,4 @@ This suite is ByteDance-inspired, not ByteDance-official. The operating model is
 - [Lark OKR](https://larksuite.my/okr)
 - [TechNode: Feishu People / OKR](https://technode.com/2022/05/26/bytedance-launches-hr-management-tool-feishu-people/)
 - [BytePlus A/B Testing Guide](https://www.byteplus.com/downloads/How-to-Avoid-Common-Mistakes-When-AB-Testing.pdf)
+- [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)

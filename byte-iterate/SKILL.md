@@ -59,6 +59,7 @@ For each loop:
 
 6. Execute:
    - Use `byte-build` behavior for plan execution.
+   - Apply `byte-code-rules` to keep iteration changes simple, scoped, and verifiable.
    - Run relevant verification.
 
 7. Review:

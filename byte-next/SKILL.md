@@ -14,7 +14,8 @@ Next advances the project one step. It is the step-by-step mode companion to `by
 3. Determine the next workflow.
 4. Check `OKRS.md` so the next step advances visible goals.
 5. Execute the workflow, not merely describe it, unless execution would be risky or requires missing input.
-6. Update `STATUS.md`.
+6. If the workflow writes, reviews, refactors, or iterates on code, apply `byte-code-rules`.
+7. Update `STATUS.md`.
 
 ## Decision Table
 

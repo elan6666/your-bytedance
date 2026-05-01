@@ -51,6 +51,7 @@ Execute all waves until plans complete or a blocker appears.
 ## Execution Rules
 
 - Inspect the repository before editing.
+- Apply `byte-code-rules` for all coding work: think before coding, keep the implementation simple, make surgical changes, and verify against explicit success criteria.
 - Never revert user changes.
 - Keep each plan's write scope clear.
 - Use actual worker subagents only when explicitly authorized by the user or auto workflow; assign disjoint ownership.
@@ -87,6 +88,7 @@ Update:
 - Mode
 - Plans executed
 - Files changed
+- Code rule notes: assumptions, scope decisions, and any intentional tradeoffs
 - Verification run
 - OKR or metric impact
 - Failures or blockers

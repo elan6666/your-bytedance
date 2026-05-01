@@ -54,6 +54,7 @@ Check:
 - Is it ready for delivery, or does it need iteration?
 - Did the work advance the stated Objective or Key Results?
 - Which assumptions need an experiment or real user evidence?
+- Did coding work follow `byte-code-rules`: simple implementation, surgical diff, no unrelated refactors, explicit assumptions, and recorded verification?
 
 ## Output
 
@@ -83,6 +84,9 @@ Can improve after delivery
 
 # Verification Gaps
 Tests, checks, or user evidence still missing
+
+# Engineering Rule Findings
+Overengineering, broad unrelated edits, hidden assumptions, unverified success criteria, or cleanup risks
 
 # Decision
 Next command
