@@ -2,6 +2,7 @@
 .byte-os/
 .product-os/
 .planning/
+tmp/
 
 # Local Codex / agent runtime artifacts
 .codex/
