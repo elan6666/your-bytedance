@@ -1,5 +1,7 @@
 # Your ByteDance Skills
 
+![Your ByteDance social preview](assets/social-preview.jpg)
+
 你自己的字节跳动，powered by Codex skills.
 
 Your own ByteDance for building products with Codex.
